@@ -1,1 +1,1119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
 
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Cardápio Digital Doce Sabor - Confeitaria por Elizângela Freitas"
+  >
+
+  <meta name="theme-color" content="#7A816B">
+
+  <title>Doce Sabor | Cardápio Digital</title>
+
+  <!-- FONTES -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       CABEÇALHO
+  ========================== -->
+  <header class="header">
+
+    <div class="container header-container">
+
+      <a href="#inicio" class="logo-area">
+
+        <img
+          src="assets/logo.png"
+          alt="Logo Doce Sabor"
+          class="logo"
+        >
+
+        <div class="logo-texto">
+          <strong>Doce Sabor</strong>
+          <span>Confeitaria por Elizângela Freitas</span>
+        </div>
+
+      </a>
+
+
+      <button
+        class="menu-mobile"
+        id="menuMobile"
+        aria-label="Abrir menu"
+      >
+        ☰
+      </button>
+
+
+      <nav class="menu" id="menu">
+
+        <a href="#inicio">
+          Início
+        </a>
+
+        <a href="#bolos">
+          Bolos
+        </a>
+
+        <a href="#sabores">
+          Sabores
+        </a>
+
+        <a href="#docinhos">
+          Docinhos
+        </a>
+
+        <a href="#informacoes">
+          Informações
+        </a>
+
+        <a
+          href="https://wa.me/5531999408195"
+          target="_blank"
+          class="botao-menu"
+        >
+          Fazer pedido
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+  <main>
+
+    <!-- =========================
+         INÍCIO / HERO
+    ========================== -->
+    <section
+      class="hero"
+      id="inicio"
+    >
+
+      <div class="container hero-container">
+
+        <div class="hero-conteudo">
+
+          <span class="subtitulo">
+            Mais que doces, momentos especiais
+          </span>
+
+          <h1>
+            Cardápio
+            <em>Digital</em>
+          </h1>
+
+          <p>
+            Bolos, docinhos e sabores preparados
+            com carinho para tornar cada momento
+            ainda mais especial.
+          </p>
+
+
+          <div class="hero-botoes">
+
+            <a
+              href="#bolos"
+              class="botao botao-principal"
+            >
+              Ver cardápio
+            </a>
+
+
+            <a
+              href="https://wa.me/5531999408195?text=Olá!%20Vi%20o%20cardápio%20da%20Doce%20Sabor%20e%20gostaria%20de%20fazer%20uma%20encomenda."
+              target="_blank"
+              class="botao botao-secundario"
+            >
+              Fazer encomenda
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-imagem">
+
+          <img
+            src="assets/capa-cardapio.png"
+            alt="Cardápio Digital Doce Sabor"
+          >
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         ATALHOS
+    ========================== -->
+    <section class="atalhos">
+
+      <div class="container atalhos-container">
+
+        <a href="#bolos">
+          <span>🎂</span>
+          Bolos
+        </a>
+
+        <a href="#sabores">
+          <span>🍰</span>
+          Sabores
+        </a>
+
+        <a href="#docinhos">
+          <span>🍬</span>
+          Docinhos
+        </a>
+
+        <a href="#extras">
+          <span>🧁</span>
+          Outras Delícias
+        </a>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         BOLOS
+    ========================== -->
+    <section
+      class="secao"
+      id="bolos"
+    >
+
+      <div class="container">
+
+        <div class="titulo-secao">
+
+          <span>
+            Sabores que celebram a vida
+          </span>
+
+          <h2>
+            Bolos & Preços
+          </h2>
+
+          <p>
+            Escolha o tamanho ideal para sua celebração.
+          </p>
+
+        </div>
+
+
+
+        <div class="grid-bolos">
+
+          <!-- TRADICIONAIS -->
+          <article class="card">
+
+            <div class="card-titulo">
+              <h3>Bolos Redondos</h3>
+              <span>Sabores Tradicionais</span>
+            </div>
+
+            <div class="tabela">
+
+              <div class="linha cabecalho">
+                <span>Fatias</span>
+                <span>Aro</span>
+                <span>Preço</span>
+              </div>
+
+              <div class="linha">
+                <span>15</span>
+                <span>15 cm</span>
+                <strong>R$ 165,00</strong>
+              </div>
+
+              <div class="linha">
+                <span>25</span>
+                <span>20 cm</span>
+                <strong>R$ 220,00</strong>
+              </div>
+
+              <div class="linha">
+                <span>40</span>
+                <span>25 cm</span>
+                <strong>R$ 270,00</strong>
+              </div>
+
+              <div class="linha">
+                <span>60</span>
+                <span>30 cm</span>
+                <strong>R$ 375,00</strong>
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- NOBRES -->
+          <article class="card">
+
+            <div class="card-titulo">
+              <h3>Bolos Redondos</h3>
+              <span>Sabores Nobres</span>
+            </div>
+
+
+            <div class="tabela">
+
+              <div class="linha cabecalho">
+                <span>Fatias</span>
+                <span>Aro</span>
+                <span>Preço</span>
+              </div>
+
+              <div class="linha">
+                <span>15</span>
+                <span>15 cm</span>
+                <strong>R$ 180,00</strong>
+              </div>
+
+              <div class="linha">
+                <span>25</span>
+                <span>20 cm</span>
+                <strong>R$ 250,00</strong>
+              </div>
+
+              <div class="linha">
+                <span>40</span>
+                <span>25 cm</span>
+                <strong>R$ 310,00</strong>
+              </div>
+
+              <div class="linha">
+                <span>60</span>
+                <span>30 cm</span>
+                <strong>R$ 430,00</strong>
+              </div>
+
+            </div>
+
+
+            <div class="aviso">
+              ♥ Valor incluso com tema
+            </div>
+
+          </article>
+
+
+
+          <!-- RETANGULARES -->
+          <article class="card">
+
+            <div class="card-titulo">
+              <h3>Bolos Retangulares</h3>
+              <span>Sabores Tradicionais</span>
+            </div>
+
+
+            <div class="tabela duas-colunas">
+
+              <div class="linha cabecalho">
+                <span>Fatias</span>
+                <span>Preço</span>
+              </div>
+
+              <div class="linha">
+                <span>8 a 10</span>
+                <strong>R$ 100,00</strong>
+              </div>
+
+              <div class="linha">
+                <span>20 a 30</span>
+                <strong>R$ 230,00</strong>
+              </div>
+
+              <div class="linha">
+                <span>40 a 50</span>
+                <strong>R$ 300,00</strong>
+              </div>
+
+              <div class="linha">
+                <span>80 a 100</span>
+                <strong>R$ 530,00</strong>
+              </div>
+
+            </div>
+
+
+            <div class="aviso">
+              Com tema + R$ 20,00
+            </div>
+
+          </article>
+
+
+
+          <!-- BOLO DE ANDAR -->
+          <article class="card destaque">
+
+            <div class="card-titulo">
+              <h3>Bolo de Andar</h3>
+              <span>
+                Para grandes celebrações
+              </span>
+            </div>
+
+
+            <div class="tabela duas-colunas">
+
+              <div class="linha cabecalho">
+                <span>Pessoas</span>
+                <span>Preço</span>
+              </div>
+
+              <div class="linha">
+                <span>40 pessoas</span>
+                <strong>R$ 350,00</strong>
+              </div>
+
+              <div class="linha">
+                <span>60 pessoas</span>
+                <strong>R$ 460,00</strong>
+              </div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         SABORES
+    ========================== -->
+    <section
+      class="secao secao-clara"
+      id="sabores"
+    >
+
+      <div class="container">
+
+        <div class="titulo-secao">
+
+          <span>
+            3 camadas de massa e 2 de recheio
+          </span>
+
+          <h2>
+            Sabores
+          </h2>
+
+          <p>
+            Escolha sua combinação favorita.
+          </p>
+
+        </div>
+
+
+        <div class="grid-sabores">
+
+          <!-- SABORES TRADICIONAIS -->
+          <article class="card sabores-card">
+
+            <h3>
+              Tradicionais
+            </h3>
+
+            <ol>
+
+              <li>Leite Ninho com Morango</li>
+
+              <li>
+                Cocada com Mousse Branco e Abacaxi
+              </li>
+
+              <li>
+                Leite Ninho com 2 recheios de Mousse de Ninho
+              </li>
+
+              <li>
+                Brigadeiro Branco com Mousse e Morango
+              </li>
+
+              <li>
+                Brigadeiro Preto com Mousse de Chocolate
+              </li>
+
+              <li>
+                Napolitano
+                <small>
+                  Mousse de Morango e Mousse de Ninho
+                </small>
+              </li>
+
+              <li>
+                Prestígio
+                <small>
+                  Cocada com Mousse de Chocolate
+                </small>
+              </li>
+
+              <li>
+                Leite Ninho com Brigadeiro Preto e Morango
+              </li>
+
+              <li>
+                Maracujá com 2 recheios de Mousse
+              </li>
+
+              <li>
+                Mousse Branco e Preto com Morango
+              </li>
+
+              <li>
+                Brigadeiro com Cocada
+              </li>
+
+              <li>
+                Beijinho com Brigadeiro
+              </li>
+
+              <li>
+                Cocada com Mousse Branco e Morango
+              </li>
+
+              <li>
+                Doce de Leite com Mousse Branco Ninho
+              </li>
+
+              <li>
+                Abacaxi com Mousse e Ninho
+              </li>
+
+              <li>
+                Mousse de Limão com Mousse de Ninho
+              </li>
+
+              <li>
+                Mousse de Ninho com Mousse de Maracujá
+              </li>
+
+              <li>
+                Brigadeiro Preto com Brigadeiro de Maracujá
+              </li>
+
+              <li>
+                Mousse Branco com Bombom Ouro Branco
+              </li>
+
+              <li>
+                Abacaxi com Mousse Branco e Doce de Leite
+              </li>
+
+              <li>
+                Brigadeiro de Ninho com Mousse Branco e Morango
+              </li>
+
+              <li>
+                Meio Amargo
+                <small>
+                  Mousse trufado com Mousse de Chocolate
+                </small>
+              </li>
+
+            </ol>
+
+          </article>
+
+
+
+          <!-- SABORES NOBRES -->
+          <article class="card sabores-card">
+
+            <h3>
+              Nobres
+            </h3>
+
+            <ol start="23">
+
+              <li>
+                Trufa de Chocolate com Mousse de Ninho
+              </li>
+
+              <li>
+                Trufa de Chocolate Preto e Branco com Morango
+              </li>
+
+              <li>
+                Chocolate Branco Creme e Mousse de Chocolate
+              </li>
+
+              <li>
+                Trufa de Chocolate e Mousse de Chocolate com Gotas
+              </li>
+
+              <li>
+                Laka Oreo com Mousse Branco
+              </li>
+
+              <li>
+                Chocolate Branco com Mousse Branco
+              </li>
+
+              <li>
+                Trufa de Chocolate com Mousse Branco e Morango
+              </li>
+
+              <li>
+                Trufa de Chocolate com Mousse de Maracujá
+              </li>
+
+            </ol>
+
+
+            <div class="aviso">
+              Recheios com Nutella e nozes possuem
+              acréscimo no valor.
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         DOCINHOS
+    ========================== -->
+    <section
+      class="secao"
+      id="docinhos"
+    >
+
+      <div class="container">
+
+        <div class="titulo-secao">
+
+          <span>
+            Pequenos prazeres, grandes momentos
+          </span>
+
+          <h2>
+            Docinhos & Especiais
+          </h2>
+
+        </div>
+
+
+
+        <div class="grid-docinhos">
+
+          <!-- TRADICIONAIS -->
+          <article class="card">
+
+            <h3>
+              Docinhos Tradicionais
+            </h3>
+
+            <ul class="lista-docinhos">
+
+              <li>Brigadeiro</li>
+              <li>Moranguinho</li>
+              <li>Beijinho</li>
+              <li>Paçoquinha</li>
+              <li>Brigadeiro Branco</li>
+              <li>Brigadeiro de Ninho</li>
+              <li>Cajuzinho</li>
+
+            </ul>
+
+
+            <div class="precos-docinhos">
+
+              <div>
+                <strong>
+                  50 und — R$ 75,00
+                </strong>
+                <span>
+                  Até 2 sabores
+                </span>
+              </div>
+
+              <div>
+                <strong>
+                  100 und — R$ 150,00
+                </strong>
+                <span>
+                  Até 4 sabores
+                </span>
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- ESPECIAIS -->
+          <article class="card">
+
+            <h3>
+              Docinhos Especiais
+            </h3>
+
+            <ul class="lista-docinhos">
+
+              <li>Ninho com Nutella</li>
+              <li>Churros</li>
+              <li>Brigadeiro de Maracujá</li>
+              <li>Palha Italiana de Brigadeiro</li>
+              <li>Palha Italiana de Ninho</li>
+              <li>Brigadeiro de Limão</li>
+
+              <li>
+                Brigadeiro com pingo de Nutella e castanha
+              </li>
+
+              <li>Oreo</li>
+
+            </ul>
+
+
+            <div class="precos-docinhos">
+
+              <div>
+                <strong>
+                  50 und — R$ 85,00
+                </strong>
+                <span>
+                  Até 2 sabores
+                </span>
+              </div>
+
+              <div>
+                <strong>
+                  100 und — R$ 170,00
+                </strong>
+                <span>
+                  Até 4 sabores
+                </span>
+              </div>
+
+            </div>
+
+          </article>
+
+
+
+          <!-- COLORIDOS -->
+          <article class="card">
+
+            <h3>
+              Coloridos ou com Carimbos
+            </h3>
+
+            <p>
+              Sabor Ninho
+            </p>
+
+
+            <div class="precos-docinhos">
+
+              <div>
+                <strong>
+                  50 und — R$ 80,00
+                </strong>
+              </div>
+
+              <div>
+                <strong>
+                  100 und — R$ 160,00
+                </strong>
+              </div>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         OUTRAS DELÍCIAS
+    ========================== -->
+    <section
+      class="secao secao-clara"
+      id="extras"
+    >
+
+      <div class="container">
+
+        <div class="titulo-secao">
+
+          <span>
+            Doces que tornam a vida mais doce
+          </span>
+
+          <h2>
+            Outras Delícias
+          </h2>
+
+        </div>
+
+
+        <div class="grid-produtos">
+
+          <article class="produto">
+
+            <div class="produto-icone">
+              🍓
+            </div>
+
+            <h3>
+              Bombom de Morango
+            </h3>
+
+            <strong>
+              R$ 300,00
+            </strong>
+
+            <span>
+              o cento
+            </span>
+
+          </article>
+
+
+          <article class="produto">
+
+            <div class="produto-icone">
+              🌰
+            </div>
+
+            <h3>
+              Bombom de Nozes
+            </h3>
+
+            <strong>
+              R$ 320,00
+            </strong>
+
+            <span>
+              o cento
+            </span>
+
+          </article>
+
+
+          <article class="produto">
+
+            <div class="produto-icone">
+              🧁
+            </div>
+
+            <h3>
+              Cupcake
+            </h3>
+
+            <strong>
+              R$ 4,00
+            </strong>
+
+            <span>
+              unidade
+            </span>
+
+          </article>
+
+
+          <article class="produto">
+
+            <div class="produto-icone">
+              🎁
+            </div>
+
+            <h3>
+              Bem-casado
+            </h3>
+
+            <strong>
+              R$ 4,00
+            </strong>
+
+            <span>
+              unidade
+            </span>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         INFORMAÇÕES
+    ========================== -->
+    <section
+      class="secao"
+      id="informacoes"
+    >
+
+      <div class="container">
+
+        <div class="titulo-secao">
+
+          <span>
+            Antes de fazer sua encomenda
+          </span>
+
+          <h2>
+            Informações Importantes
+          </h2>
+
+        </div>
+
+
+        <div class="grid-informacoes">
+
+          <article class="info-card">
+
+            <div class="info-icone">
+              50%
+            </div>
+
+            <h3>
+              Confirmação da encomenda
+            </h3>
+
+            <p>
+              A encomenda é confirmada mediante
+              pagamento de 50% do valor total.
+            </p>
+
+          </article>
+
+
+          <article class="info-card">
+
+            <div class="info-icone">
+              3
+            </div>
+
+            <h3>
+              Antecedência
+            </h3>
+
+            <p>
+              Faça sua encomenda com no mínimo
+              3 dias de antecedência.
+            </p>
+
+          </article>
+
+
+          <article class="info-card">
+
+            <div class="info-icone">
+              $
+            </div>
+
+            <h3>
+              Formas de pagamento
+            </h3>
+
+            <p>
+              Pix, dinheiro e cartão de crédito
+              on-line com taxa.
+            </p>
+
+          </article>
+
+
+          <article class="info-card">
+
+            <div class="info-icone">
+              !
+            </div>
+
+            <h3>
+              Desistência
+            </h3>
+
+            <p>
+              Em caso de desistência,
+              o valor total do produto não é devolvido.
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         CHAMADA FINAL
+    ========================== -->
+    <section class="chamada-final">
+
+      <div class="container chamada-container">
+
+        <img
+          src="assets/logo.png"
+          alt="Logo Doce Sabor"
+        >
+
+
+        <div>
+
+          <span>
+            Feitos com amor para você
+          </span>
+
+          <h2>
+            Peça a sua doçura!
+          </h2>
+
+          <p>
+            Entre em contato com a Elizângela
+            e consulte disponibilidade para sua data.
+          </p>
+
+        </div>
+
+
+        <a
+          href="https://wa.me/5531999408195?text=Olá!%20Gostaria%20de%20fazer%20uma%20encomenda%20na%20Doce%20Sabor."
+          target="_blank"
+          class="botao botao-principal"
+        >
+          Fazer pedido
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- =========================
+       WHATSAPP FLUTUANTE
+  ========================== -->
+  <a
+    href="https://wa.me/5531999408195?text=Olá!%20Vi%20o%20cardápio%20da%20Doce%20Sabor."
+    target="_blank"
+    class="whatsapp"
+    aria-label="Falar pelo WhatsApp"
+  >
+    ☎
+  </a>
+
+
+
+  <!-- =========================
+       RODAPÉ
+  ========================== -->
+  <footer>
+
+    <div class="container footer-container">
+
+      <img
+        src="assets/logo.png"
+        alt="Logo Doce Sabor"
+      >
+
+      <div>
+
+        <strong>
+          Doce Sabor
+        </strong>
+
+        <span>
+          Confeitaria por Elizângela Freitas
+        </span>
+
+      </div>
+
+
+      <div class="footer-contato">
+
+        <a
+          href="https://www.instagram.com/elizangela_freitas_doce_sabor_/"
+          target="_blank"
+        >
+          @elizangela_freitas_doce_sabor_
+        </a>
+
+        <a
+          href="https://wa.me/5531999408195"
+          target="_blank"
+        >
+          (31) 99940-8195
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <p class="copyright">
+      Mais que doces, momentos especiais ♥
+    </p>
+
+  </footer>
+
+
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
